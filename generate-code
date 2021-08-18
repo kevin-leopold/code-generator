@@ -7,7 +7,7 @@ do
         i) input=${OPTARG};;
         o) output=${OPTARG};;
     esac
-done
+done<
 
 
 echo $input
