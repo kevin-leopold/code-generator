@@ -7,11 +7,7 @@ do
         i) input=${OPTARG};;
         o) output=${OPTARG};;
     esac
-done<
-
-
-echo $input
-echo $output
+done
 
 openapi-generator-cli generate -i $input -g dart-dio-next -o $output &&
 cd $output && 
